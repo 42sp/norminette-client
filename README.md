@@ -48,8 +48,8 @@ bundle
 **Create an alias**
 
 ```bash
-echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
-source ~/.zshrc
+echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.profile
+source ~/.profile
 ```
 <br /><br />
 ### Windows
