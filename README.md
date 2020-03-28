@@ -1,4 +1,4 @@
-<h1 align="center"><code>norminette @ home</code></h1>
+<h1 align="center"><code>Norminette @ home</code></h1>
 
 <div align="center">
   <sub>Created by <a href="http://42.fr">42.fr</a></sub>
