@@ -44,13 +44,26 @@ git clone https://github.com/42sp/norminette-client.git ~/.norminette/
 cd ~/.norminette/
 bundle
 ```
+In case you find some bundler version error
+Update the gem:
+```sudo gem update --system```
+Re-install bundler:
+```sudo gem install bundler```
+Run the bundler command again:
+```bundle```
+
 
 **Create an alias**
-
 ```bash
-echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.profile
-source ~/.profile
+echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.bashrc
+source ~/.bashrc
 ```
+
+**Details**
+After the steps above norme should work fine but you might find some weird warning messages
+To fix it just adjust your gem version
+```sudo gem update --system 3.0.6```
+
 <br /><br />
 ### Windows
 
